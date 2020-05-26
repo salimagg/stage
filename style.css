@@ -1,6 +1,35 @@
 a{
-	font-size: 20px;
+	font-size: 18px;
+	background-color: white;
+	color: orange;
+	padding: 10px 32px;
+	text-align: center;!
+	text-decoration: none;
+	display: inline-block;
+	border: 1px solid #000;	
 }
+
+a:hover, a:active{
+	color: black;
+	text-shadow: 1px black;
+	background-color: green;
+}
+
+#sousmenu a{
+	font-size: 18px;
+	background-color: white;
+	color: orange;
+	padding: 10px 32px;
+	text-align: center;!
+	text-decoration: none;
+	display: inline-block;
+	border: 1px solid #000;
+}
+
+#sousmenu a:hover{
+	background-color: #5E99DC;
+}
+
 h1{
 	color: white;
 	text-align: center;
@@ -27,13 +56,15 @@ p{
 
 #menu ul li a{
 	width: 147px;
-	height: 62px;
+	height: 80px;
  	padding: 15px 28px;
   	text-align: center;
   	text-decoration: none;
   	display: inline-block;
   	text-shadow: 1px 1px blue;
   	border: 1px solid #000;
+  	font-size: 21px;
+  	padding-bottom: 50px;
 }
 
 #menu ul ul{
@@ -56,7 +87,7 @@ p{
 }
 
 #menu ul li a:hover, a:active {
-  background-color: grey;
+  background-color: #E29AB4;
 }
 
 #menu li:hover{
