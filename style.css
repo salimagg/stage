@@ -1,3 +1,15 @@
+#sousmenu2{
+	font-size: 18px;
+	color: orange;
+	padding: 10px 32px;
+	text-align: center;!
+	text-decoration: none;
+}
+
+#sousmenu2 a:hover{
+	background-color: #5E99DC;
+}
+
 a{
 	font-size: 18px;
 	background-color: white;
